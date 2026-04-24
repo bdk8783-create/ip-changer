@@ -2,12 +2,12 @@ pkg update && pkg upgrade -y
 
 pkg install git -y
 
-git clone https://github.com/anonym793/GREY-IP.git
+git clone https://github.com/bdk8783-create/ip-changer
 
-cd GREY-IP
+cd ip-changer
 
 chmod +x install.sh
 
 ./install.sh
 
-python greyip.py
+python ipcng.py
